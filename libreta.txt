@@ -1,0 +1,37 @@
+· ¿Cual es el numero mas pequeño que se permite como parametro?
+· Y el mas grande?
+· Que pasa cuando el resultado es menor que el numero mas pequeño permitido?
+· Y cuando es mayor?
+
+
+# Aceptacion - "2 + 2", devuelve 4
+
+· La cadena "2 + 2" tiene dos numeros y un operador y son '2', '2' y '+'
+
+# Aceptacion - "5 + 4 * 2 / 2", devuelve 9
+
+# Aceptacion - "3 / 2", produce ERROR
+
+# Aceptacion - "* * 4 - 2", produce ERROR
+
+# Aceptacion - "* 4 5 - 2", produce ERROR
+
+# Aceptacion - "*45-2-", produce ERROR
+
+# Aceptacion - "2 + -2", devuelve 0
+
+# Aceptacion - Limite superior = 100
+
+# Aceptacion - Limite superior = 500
+
+# Aceptacion - Limite inferior = -1000
+
+# Aceptacion - Limite inferior = -10
+
+# Aceptacion - Limite Superior=100 y parametro mayor que 100, produce ERROR
+
+# Aceptacion - Limite Superior=100 y resultado mayor que 100, produce ERROR
+
+# Aceptacion - Limite Inferior=10 y parametro menor que 10, produce ERROR
+
+# Aceptacion - Limite Inferior=10 y resultado menor que 10, produce ERROR
