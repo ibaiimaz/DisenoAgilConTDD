@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace SuperCalculator
 {
-    public class CalcProxy
+    public class CalcProxy : CalculatorProxy
     {
         private BasicCalculator _calculator;
         private LimitsValidator _validator;
@@ -16,6 +16,12 @@ namespace SuperCalculator
         {
             _calculator = calculator;
             _validator = validator;
+        }
+
+        public BasicCalculator Calculator
+        {
+            get { return _calculator; }
+            set { _calculator = value; }
         }
 
         public int BinaryOperation(SingleBinaryOperation operation, int arg1, int arg2)

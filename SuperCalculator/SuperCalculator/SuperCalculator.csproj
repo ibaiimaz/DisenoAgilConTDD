@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.RegularExpressions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,9 +44,25 @@
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="CalcProxy.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="CalculatorProxy.cs" />
     <Compile Include="Delegates.cs" />
+    <Compile Include="ExpressionBuilder.cs" />
+    <Compile Include="ExpressionFixer.cs" />
+    <Compile Include="ExpressionValidator.cs" />
+    <Compile Include="Lexer.cs" />
     <Compile Include="LimitsValidator.cs" />
+    <Compile Include="MathExpression.cs" />
+    <Compile Include="MathLexer.cs" />
+    <Compile Include="MathNumber.cs" />
+    <Compile Include="MathOperator.cs" />
+    <Compile Include="MathParser.cs" />
+    <Compile Include="MathRegex.cs" />
+    <Compile Include="MathToken.cs" />
+    <Compile Include="OperatorFactory.cs" />
+    <Compile Include="Operators.cs" />
+    <Compile Include="Precedence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resolver.cs" />
     <Compile Include="Validator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
